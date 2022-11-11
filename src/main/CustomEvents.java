@@ -5,11 +5,11 @@ import mindustry.gen.Player;
 public class CustomEvents {
 
     public static class PlayerJoinSecondary{
-        public final Player player;
+        public final Object player;
         public final int playTime;
         public final int donatorLevel;
 
-        public PlayerJoinSecondary(Player player, int playTime, int donatorLevel){
+        public PlayerJoinSecondary(Object player, int playTime, int donatorLevel){
             this.player = player;
             this.playTime = playTime;
             this.donatorLevel = donatorLevel;
